@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .urunler {
+    flex: 1;
+    margin: 20px;
+  }
+  
+  .urunler h2 {
+    margin-top: 0;
+  }
+  
+  .urunler ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .urunler ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  .urunler ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .urunler ul li img {
+    width: 100%;
+  }
+  
+  .urunler ul li h3 {
+    margin-top: 10px;
+  }
+  
+  .urunler ul li p {
+    margin-top: 5px;
+  }
+  
+  .urunler ul li .fiyat {
+    font-weight: bold;
+  }
+  
+  .filtreler {
+    flex: 1;
+    height: 30%;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .filtreler h2 {
+    margin-top: 0;
+  }
+  
+  .filtreler form {
+    margin-top: 10px;
+  }
+  
+  .filtreler form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .filtreler form select,
+  .filtreler form input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .filtreler form button {
+    margin-top: 10px;
+    padding: 5px
+  }
